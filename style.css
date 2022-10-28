@@ -1,0 +1,432 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #424242;
+  margin: 3%;
+}
+
+#heading{
+  color: grey;
+}
+
+#span-heading{
+  color: black;
+  transition: color 0.8s;
+}
+
+#supreme-div{
+  background-color: #F7F7F7;
+}
+
+#parent-div{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+#plus-div{
+  padding: 2%;
+  color: #424242;
+}
+
+
+.fa-solid{
+  font-size: 30px;
+  vertical-align: middle;
+  margin-right: 0.5%;
+  position: relative;
+  left: 80%;
+}
+
+#add-new{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: small;
+  display: inline-block;
+  position: relative;
+  left: 80%;
+}
+
+#removing-anchor-styling{
+  text-decoration: none;
+  color: #424242;
+}
+
+input.check-size{
+  width: 20px;
+  height: 20px;
+  
+}
+
+input[type=checkbox]{
+  accent-color: grey;
+  vertical-align: middle;
+}
+
+.input-text-1{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: small;
+  color: #C2C2C2;
+  text-decoration: line-through;
+  display: inline-block;
+
+}
+
+.input-text-2{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: small;
+  display: inline-block;
+}
+
+.box{
+  
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 22%;
+  height: 250px;
+  margin-left: 5.5%;
+  margin-right: 5%;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  transition: color 1s;
+  transition: box-shadow 1s;
+   
+}
+
+h5,form{
+  padding-left: 8%;
+  transition: color 1s;
+}
+
+h5{
+  color: blue;
+}
+
+
+
+
+
+
+/* page-2 */
+
+#background-index-page{
+ filter: brightness(30%);
+}
+
+#pop-up{
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 26%;
+  height: 180px;
+  bottom: 30%;
+  left: 35%;
+  background-color: white;
+}
+
+#inline-block{
+  display: inline-block;
+}
+
+
+.anchor{
+  color: grey;
+  text-decoration: none;
+  transition: color 0.8s;
+ 
+}
+
+
+.fa-cross {
+  font-size: 18px;
+  margin-left: -25%;
+}
+
+
+#java{
+  display: block;
+  width: 90%;
+  height: 20px;
+
+}
+
+#button{
+  
+  background-color: rgb(2, 20, 1);
+  border: none;
+  border-radius: 2.5px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+
+  margin-left: 68%;
+  margin-top: 7%;
+  transition: background-color 1s;
+  
+    
+}
+
+
+
+
+/* page 3rd */
+
+
+.height{
+  height: 500px;
+}
+
+.fa-angles-left{
+  position: relative;
+  left: 40%;
+  color: #424242;
+  
+}
+
+#shifting-trip-to-delhi{
+  margin-left: 40%;
+  margin-top: 0%;
+}
+
+#make-center{
+   text-align: center; 
+  padding-left: 0px;
+}
+
+.for-page-3{
+  margin-left: -23%;
+}
+
+
+
+/* page - 4 final heheheh ! */
+
+
+.bluring{
+  filter: brightness(40%);
+}
+
+
+.done{
+  margin-left: 3%;
+  margin-bottom: 7%;
+}
+
+
+
+
+/* transition-stuff */
+
+h5:hover{
+
+  color: rgb(160, 95, 144);  
+ 
+}
+
+.box:hover{
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.4);
+}
+
+#span-heading:hover{
+  color: rgb(160, 95, 144); ;
+}
+
+
+.anchor:hover{
+  color:rgb(160, 95, 144); ;
+}
+
+#button:hover{
+  background-color: rgb(160, 95, 144); 
+}
+
+
+/* TODO - mobile media query */
+
+@media (min-width: 320px) and (max-width: 440px) {
+
+body{
+  font-size:medium;
+}
+
+#heading{
+  font-size: medium;
+}
+
+#span-heading{
+  color: rgb(160, 95, 144);
+  transition: color 0.8s;
+}
+
+#plus-div{
+  padding: 4%;
+}
+
+#add-new{
+  display: none;
+}
+
+.fa-solid{
+  left: 50.5%;
+  color: rgb(160, 95, 144); ;
+}
+
+#parent-div{
+  flex-direction: column;
+}
+
+.box{
+  width: 88%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+h5{
+  color: rgb(160, 95, 144); ;
+}
+
+/* 2nd-page */
+
+#pop-up{
+  width: 88%;
+  bottom: 40%;
+  left: 5%;
+}
+
+.fa-cross{
+  margin-left: 3%;
+  color: #424242
+}
+
+/* 3rd-page */
+
+
+#shifting-trip-to-delhi {
+    margin-left: 5.5%;
+    margin-top: 0%;
+
+}
+
+.fa-angles-left{
+  left: 0%;
+}
+
+.for-page-3{
+  margin-left: -18%;
+}
+
+/* page-4 */
+
+.done{
+  margin-left: 0.2%;
+  margin-bottom: 18%;
+}
+
+#inline-block{
+  color: #424242;
+}
+
+ }
+
+ @media (min-width: 441px) and (max-width: 1000px) {
+
+  body{
+    font-size:medium;
+  }
+  
+  #heading{
+    font-size: medium;
+  }
+  
+  #span-heading{
+    color: rgb(160, 95, 144); ;
+    transition: color 0.8s;
+  }
+  
+  #plus-div{
+    padding: 4%;
+  }
+  
+  #add-new{
+    left: 50.5%;
+  }
+  
+  .fa-solid{
+    left: 50.5%;
+    color: rgb(160, 95, 144); ;
+  }
+  
+  #parent-div{
+    flex-direction: column;
+  }
+  
+  .box{
+    width: 88%;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+  }
+  
+  h5{
+    color: rgb(160, 95, 144);
+  }
+  
+  /* 2nd-page */
+  
+  #pop-up{
+    width: 60%;
+    bottom: 38%;
+    left: 20%;
+    height: 200px;
+  }
+  
+  .fa-cross{
+    margin-left: 10%;
+    color: #424242
+  }
+
+  #button{
+    margin-left: 75%;
+    background-color: #424242;
+  }
+  
+  /* 3rd-page */
+  
+  
+  #shifting-trip-to-delhi {
+      margin-left: 5.5%;
+      margin-top: 0%;
+  
+  }
+  
+  .fa-angles-left{
+    left: 0%;
+  }
+  
+  .for-page-3{
+    margin-left: -18%;
+  }
+  
+  /* page-4 */
+  
+  .done{
+    margin-left: 0.2%;
+    margin-bottom: 18%;
+  }
+  
+  #inline-block{
+    color: #424242;
+  }
+
+
+ }
+
+
+
+
